@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "i-plant-app",
+    "name": "I Plant",
     "slug": "i-plant-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,6 +20,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "I Plant uses your location to find and map your yard."
+        }
+      ]
+    ]
   }
 }
